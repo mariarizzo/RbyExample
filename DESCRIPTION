@@ -1,0 +1,16 @@
+Package: RbyExample
+Title: Data for the Book "R by Example"
+Version: 0.0.0.1000
+Authors@R: c(
+    person("Maria", "Rizzo", , "mrizzo@bgsu.edu", c("aut", "cre")),
+    person("Jim", "Albert", , , "aut"))
+Description: Data for the examples and exercises in the book "R by Example" 
+    by Jim Albert and Maria Rizzo.
+License: GPL (>= 2)
+Maintainer: Maria Rizzo <mrizzo@bgsu.edu>
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
