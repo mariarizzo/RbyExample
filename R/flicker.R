@@ -1,0 +1,25 @@
+#' Flicker Data
+#'
+#' Critical flicker frequency and iris color of the eye for 19 individuals.
+#'
+#' @format 19 obs. of 2 variables:
+#' \describe{
+#' \item{Colour}{Eye colour: Brown, Green, or Blue}
+#' \item{Flicker}{Critical flicker frequency in cycles/sec.}
+#' }
+#' @details
+#' Critical flicker frequency is the highest frequency at which
+#' the flicker in a flickering light source can be detected by the
+#' individual.
+#'
+#'
+#' @source
+#' http://www.statsci.org/data/general/flicker.txt
+#'
+#' https://gksmyth.github.io/ozdasl/general/flicker.html
+#'
+#' @references
+#' Smyth, Gordon K (2011). Australasian Data and Story Library (OzDASL).
+#' https://gksmyth.github.io/ozdasl.
+#'
+"flicker"

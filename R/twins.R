@@ -1,0 +1,42 @@
+#' Twins Income and Education Levels Data
+#'
+#' The data were collected at the 16th Annual Twins Day Festival in
+#' Twinsburg, Ohio, in August 1991. 495 adult twins were interviewed. The
+#' original study aimed to investigate
+#' 'By how much will another year of schooling most likely raise one's income?'
+#' Pairs of twins provide a control on confounding factors such as intelligence,
+#' family background, etc.
+#'
+#'
+#'
+#' @format 183 obs. of  16 variables:
+#' \describe{
+#' \item{DLHRWAGE}{the difference (twin 1 minus twin 2) in the logarithm of hourly wage, given in dollars.}
+#' \item{DEDUC1}{the difference (twin 1 minus twin 2) in self-reported education, given in years.}
+#' \item{AGE}{Age in years of twin 1.}
+#' \item{AGESQ}{AGE squared.}
+#' \item{HRWAGEH}{Hourly wage of twin 2.}
+#' \item{WHITEH}{1 if twin 2 is white, 0 otherwise.}
+#' \item{MALEH}{1 if twin 2 is male, 0 otherwise.}
+#' \item{EDUCH}{Self-reported education (in years) of twin 2.}
+#' \item{HRWAGEL}{Hourly wage of twin 1.}
+#' \item{WHITEL}{1 if twin 1 is white, 0 otherwise.}
+#' \item{MALEL}{1 if twin 1 is male, 0 otherwise.}
+#' \item{EDUCL}{Self-reported education (in years) of twin 1.}
+#' \item{DEDUC2}{the difference (twin 1 minus twin 2) in cross-reported education.}
+#' \item{DTEN}{the difference (twin 1 minus twin 2) in tenure, or number of years at current job.}
+#' \item{DMARRIED}{the difference (twin 1 minus twin 2) in marital status, where
+#'  1 signifies "married" and 0 signifies "unmarried".}
+#' \item{DUNCOV}{the difference (twin 1 minus twin 2) in union coverage, where
+#' 1 signifies "covered" and 0 "uncovered".}
+#' }
+#' @note
+#' There are 183 cases; 147 complete cases.
+#' Twin 1's cross-reported education is the number of years of schooling completed by twin 1 as reported by twin 2.
+#' For data analysis, the logarithm of the hourly wage is typically used instead of hourly wage.
+#' @source Guido Imbens, PhD. UCLA, Department of Economics.
+#' @references
+#' Ashenfelter, Orley and Krueger, Alan.  "Estimates of the Economic Return
+#' to Schooling from a New Sample of Twins."  The American Economic Review
+#' 84.5 (Dec. 1994) 1157-1173.
+"twins"

@@ -1,0 +1,21 @@
+#' Massachusetts Lunatics Data
+#'
+#' Data from an 1854 survey by the Massachusetts Commission on Lunacy.
+
+#' @format 14 obs. of 6 variables:
+#' \describe{
+#' \item{COUNTY}{Name of county.}
+#' \item{NBR}{Number of lunatics by county.}
+#' \item{DIST}{Distance to nearest mental health center.}
+#' \item{POP}{County population 1950 (thousands).}
+#' \item{PDEN}{County population density per square mile.}
+#' \item{PHOME}{Percent of lunatics cared for at home.}
+#' }
+#'
+#'
+#' @references
+#'
+#'J.M. Hunter, "Need and Demand for Mental Health Care: Massachusetts 1854,"
+#'The Geographic Review, 77:2 (April 1987), pp 139-156.
+#'
+"lunatics"
