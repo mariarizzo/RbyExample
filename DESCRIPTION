@@ -1,11 +1,11 @@
 Package: RbyExample
-Title: Data for the Book 'R by Example'
+Title: Data for the Book "R by Example"
 Version: 0.0.100
 Authors@R: c(
     person("Maria", "Rizzo", , "mrizzo@bgsu.edu", c("aut", "cre")),
     person("Jim", "Albert", , , "aut"))
-Description: Data for the examples and exercises in the book 'R by Example' 
-    by Jim Albert and Maria Rizzo.
+Description: Data for the examples and exercises in the book "R by Example".  
+    Jim Albert and Maria Rizzo (2012, ISBN 978-1-4614-1365-3).
 License: GPL (>= 2)
 Maintainer: Maria Rizzo <mrizzo@bgsu.edu>
 Encoding: UTF-8
